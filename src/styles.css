@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    text-align: center;
+}
+app-tic-tac-toe table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+app-tic-tac-toe td{
+    border: 2px solid black;
+    width: 2em; /*relativa a 2x ao tamanho da fonte */
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
